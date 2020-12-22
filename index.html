@@ -19,9 +19,9 @@
             <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentarios</a>
+                <a href="#series">Séries</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#populares">Populares</a>
             </nav>
         </div>
     </header>
@@ -46,19 +46,20 @@
                 à Inglaterra. assista agora a nova temporada de Vikings.
                 </p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button role="button btn-1" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA                        
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÔES                        
-                    </button>
+                        MAIS INFORMAÇÔES                                                
+                    </button>   
                 </div>
             </div>
         </div>
     </main>
-    <div class="carrossel-filmes">
+    <div class="carrossel-filmes" id="populares">
+        <h3 class="titulo-list comentario">Populares na Netflix</h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img class="box-filme" src="img/enola.jpg" alt="">
@@ -85,7 +86,8 @@
                 <img class="box-filme" src="img/deverasInteligente.jpg" alt="">
             </div>
         </div>
-        <div class="carrossel-filmes">
+        <div class="carrossel-filmes" id="series">
+            <h3 class="titulo-list comentario">Séries</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-filme" src="img/grey.jpg" alt="">
@@ -112,6 +114,34 @@
                     <img class="box-filme" src="img/dragon.jpg" alt="">
                 </div>
             </div>
+            <div class="carrossel-filmes" id="filmes">
+                <h3 class="titulo-list comentario">Filmes</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="img/vingadores.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/Croods.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/hp3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/hp6.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/ateHomem.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/jogo.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/cityofgod.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/dunkirk.jpg" alt="">
+                    </div>
+                </div>
     </div>
 
     <script src="https://kit.fontawesome.com/bea261c949.js" crossorigin="anonymous"></script>

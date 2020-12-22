@@ -62,10 +62,12 @@ header nav a:hover {
 }
 .filme-principal .titulo {
     font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 10%;
 }
 .botao {
-    background-color: rgba(0, 0, 0, .50) ;
+    background-color: rgba(109, 109, 110, 0.7) ;
+    border-radius: 7px;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -73,6 +75,9 @@ header nav a:hover {
     font-size: 12px;
     cursor: pointer;
     transition:  .3s ease;
+}
+.btn-1 {
+    background-color: #fff;
 }
 .botao:hover {
     background-color: white;
@@ -89,6 +94,20 @@ header nav a:hover {
     width: 100%;
     display: block;
     margin-top: 20px;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.item .box-filme:hover {
+    margin-top: 8px;
+    width: 98%;
+    margin-bottom: 5px;
+    z-index: 1;
+    transform: scale(1.1);
+}
+.comentario {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
 }
 
 .carousel-filme {
