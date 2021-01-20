@@ -6,12 +6,14 @@
     <title>Clone NetFlix</title>
     <link rel="shortcut icon" href="img/logo_pagina.png">
     <link rel="stylesheet" href="./styles/main.css">
-
+      
     <!--Owl css-->
     <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
     <!--Responsivedade-->
     <link rel="stylesheet" href="styles/responsive.css">
+    <!-- Script -->
+
 </head>
 <body>
     <header>
@@ -28,9 +30,10 @@
 
     <main>
         <div class="filme-principal">
+            <video src="./videos/vikings_season_1_trailer_h264_83119.mp4" autoplay loop muted id="trailer"></video>
             <div class="container">
                 <h3 class="titulo">VIKINGS</h3>
-                <p class="descricao">Ragnar Lothbrok, um jovem que se
+                <p  class="descricao">Ragnar Lothbrok, um jovem que se
                 considera descendente de Odin,
                 é um guerreiro, fazendeiro e
                 chefe de família. Visionário e
@@ -48,9 +51,9 @@
                 <div class="botoes">
                     <button role="button btn-1" class="botao">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA                        
+                         <a href="https://www.youtube.com/watch?v=9GgxinPwAGc" target="_blank">ASSISTIR AGORA</a>                         
                     </button>
-                    <button role="button" class="botao">
+                    <button role="button" onclick="info()" class="swal-button botao" >
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÔES                                                
                     </button>   
@@ -143,11 +146,35 @@
                     </div>
                 </div>
     </div>
+    <footer>
+        <ul>
+            <h2>Contato</h2>
+            <li>(47) 99102-6664</li>
+            <li>rennanemanoel386@hmail.com</li>
+            <li>rennan-emanoel</li>
+        </ul>
+        <ul>
+            <h2>Endereço</h2>
+            <li>Rua das Palmeiras, 234</li>
+            <li>89201-040</li>
+            <li>Centro</li>
+        </ul>
+        <ul>
+            <h2>XXXXXX</h2>
+            <li>XXXXXXX</li>
+            <li>XXXXXX</li>
+            <li>XXXXXXXX</li>
+        </ul>
+    </footer>
 
-    <script src="https://kit.fontawesome.com/bea261c949.js" crossorigin="anonymous"></script>
-    <script src="js/owl/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript" src="js/owl/jquery.2.min.js"></script>
+    <script type="text/javascript" src="./js/owl/main.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <!--Sweet Alert-->
+
+    
 
 </body>
 </html>
